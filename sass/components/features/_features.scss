@@ -1,7 +1,6 @@
 .features {
     @extend %list;
     display: flex;
-    flex-wrap: wrap;
 }
 .features__list {
     position: relative;

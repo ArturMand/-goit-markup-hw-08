@@ -1,32 +1,46 @@
 .contact {
-  display: inline-flex;
-  align-items: center;
-  margin: 0;
+  display: flex;
   margin-left: auto;
-  padding: 0;
-  list-style: none;
-  align-content: baseline;
-}
-.contact__link {
-  @extend %fonts-header;
-  display: inline-flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: $second-text-color;
-  margin: 0;
-  transition: $cubic;
+@media screen and(min-width: 768px) and(max-width: 1200px){
 
-  &:not(:first-child) {
-    margin-left: 50px;
-  }
+  flex-direction: column;
+
+
 }
-.contact__link--anim {
-  &:hover,
-  &:focus {
-    color: $accent-color;
+  &__link {
+    @extend %link;
+    display: inline-flex;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.16;
+ 
+    color: $second-text-color;
+    margin: 0;
+    transition: $cubic;
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+    @media screen and(min-width: 768px) and(max-width: 1200px){
+    &:first-child{
+      padding-top: 19px;
+    }
+    &:not(:first-child){
+      margin-top: 10px;
+      padding-bottom: 21px;
+    }
   }
-}
-.contact__icon {
-  align-self: center;
-  margin-right: 0.625em;
+    @media screen and(min-width: 1200px) {
+      padding-top: 32px;
+      padding-bottom: 32px;
+      &:not(:first-child) {
+        margin-left: 50px;
+      }
+    }
+  }
+
+  &__icon {
+    margin-right: 8px;
+  }
 }
