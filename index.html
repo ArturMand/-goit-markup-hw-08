@@ -45,7 +45,9 @@
               <li class="site-nav__item">
                 <a href="./index.html" class="site-nav__link active">Студия</a>
               </li>
-              <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфолио</a></li>
+              <li class="site-nav__item">
+                <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
+              </li>
               <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
             </ul>
 
@@ -120,12 +122,48 @@
           <h2 class="title">Чем мы занимаемся</h2>
           <ul class="features">
             <li class="features__list">
+              <img
+                class="features__img"
+                srcset="
+                  ./image/Main/features/features1.jpg     370w,
+                  ./image/Main/features/features1@2x.jpg  770w,
+                  ./image/Main/features/features1@3x.jpg 1110w,
+                  ./image/Main/features/features1@4x.jpg 1480w
+                "
+                src="./image/Main/features/features1.jpg"
+                alt="features1"
+                sizes="(min-width: 1200px) 33vw, 100vw"
+              />
               <p class="features__description">Десктопные приложения</p>
             </li>
             <li class="features__list">
+              <img
+                class="features__img"
+                srcset="
+                  ./image/Main/features/features2.jpg     370w,
+                  ./image/Main/features/features2@2x.jpg  770w,
+                  ./image/Main/features/features2@3x.jpg 1110w,
+                  ./image/Main/features/features2@4x.jpg 1480w
+                "
+                src="./image/Main/features/features2.jpg"
+                alt="features2"
+                sizes="(min-width: 1200px) 33vw, 100vw"
+              />
               <p class="features__description">Мобильные приложения</p>
             </li>
             <li class="features__list">
+              <img
+                class="features__img"
+                srcset="
+                  ./image/Main/features/features3.jpg     370w,
+                  ./image/Main/features/features3@2x.jpg  770w,
+                  ./image/Main/features/features3@3x.jpg 1110w,
+                  ./image/Main/features/features3@4x.jpg 1480w
+                "
+                src="./image/Main/features/features3.jpg"
+                alt="features3"
+                sizes="(min-width: 1200px) 33vw, 100vw"
+              />
               <p class="features__description">Дизайнерские решения</p>
             </li>
           </ul>
@@ -139,9 +177,14 @@
             <li class="team__list">
               <img
                 class="team__photo"
+                srcset="
+                  ./image/Main/team/team1.jpg     450w,
+                  ./image/Main/team/team1@2x.jpg  900w,
+                  ./image/Main/team/team1@3x.jpg 1350w
+                "
                 src="./image/Main/team/team1.jpg"
                 alt="Игорь Демьяненко"
-                width="100%"
+                sizes="(min-width: 1200px) 33vw,(min-width: 768px) 50vw, 100vw"
               />
               <div class="team__meta">
                 <h3 class="team__name">Игорь Демьяненко</h3>
@@ -182,9 +225,14 @@
             <li class="team__list">
               <img
                 class="team__photo"
+                srcset="
+                  ./image/Main/team/team2.jpg     450w,
+                  ./image/Main/team/team2@2x.jpg  900w,
+                  ./image/Main/team/team2@3x.jpg 1350w
+                "
                 src="./image/Main/team/team2.jpg"
                 alt="Ольга Репина"
-                width="100%"
+                sizes="(min-width: 1200px) 33vw,(min-width: 768px) 50vw, 100vw"
               />
               <div class="team__meta">
                 <h3 class="team__name">Ольга Репина</h3>
@@ -225,9 +273,14 @@
             <li class="team__list">
               <img
                 class="team__photo"
+                srcset="
+                  ./image/Main/team/team3.jpg     450w,
+                  ./image/Main/team/team3@2x.jpg  900w,
+                  ./image/Main/team/team3@3x.jpg 1350w
+                "
                 src="./image/Main/team/team3.jpg"
                 alt="Николай Тарасов"
-                width="100%"
+                sizes="(min-width: 1200px) 33vw,(min-width: 768px) 50vw, 100vw"
               />
               <div class="team__meta">
                 <h3 class="team__name">Николай Тарасов</h3>
@@ -268,9 +321,14 @@
             <li class="team__list">
               <img
                 class="team__photo"
+                srcset="
+                  ./image/Main/team/team4.jpg     450w,
+                  ./image/Main/team/team4@2x.jpg  900w,
+                  ./image/Main/team/team4@3x.jpg 1350w
+                "
                 src="./image/Main/team/team4.jpg"
                 alt="Михаил Ермаков"
-                width="100%"
+                sizes="(min-width: 1200px) 33vw,(min-width: 768px) 50vw, 100vw"
               />
               <div class="team__meta">
                 <h3 class="team__name">Михаил Ермаков</h3>
@@ -439,7 +497,7 @@
           </div>
         </div>
       </div>
-    </footer> 
+    </footer>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">

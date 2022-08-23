@@ -13,12 +13,12 @@
         margin-right: 30px;
       }
 
-    $child-num: "1", "2", "3";
-    @each $num in $child-num{
-      &:nth-child(#{$num}){
-          background-image: url(../image/Main/do/box#{$num}.jpg);
-      }
-    }
+    // $child-num: "1", "2", "3";
+    // @each $num in $child-num{
+    //   &:nth-child(#{$num}){
+    //       background-image: url(../image/Main/do/box#{$num}.jpg);
+    //   }
+    // }
 }
 
 
