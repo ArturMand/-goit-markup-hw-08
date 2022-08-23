@@ -14,7 +14,6 @@
     line-height: 1.67;
   }
 
-
   &--hero {
     margin-left: auto;
     margin-right: auto;
@@ -36,24 +35,11 @@
     }
   }
 
-  &--join {
-    @extend %fonts-title-join;
-    margin-bottom: 20px;
-    color: $white-color;
-  }
-
   &--client-form {
-    @extend %fonts-client-form__title;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
     margin-bottom: 12px;
     color: $primary-text-color;
-
   }
-
-}
-.sub-title {
-  @extend %fonts-sub-title;
-
-
-
-
 }

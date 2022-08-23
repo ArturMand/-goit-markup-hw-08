@@ -1,4 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    &.modal-open{
+        overflow: hidden;
+    }
 }

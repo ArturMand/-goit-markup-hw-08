@@ -134,18 +134,8 @@ $cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.55;
   letter-spacing: 0.03em;
 }
-%fonts-work-list__name {
-  font-weight: $bold;
-  font-size: $font-medium;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-%fonts-work-list__descr {
-  font-weight: $regular;
-  font-size: $font-regular;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-}
+
+
 // list link
 %list {
   margin: 0;
