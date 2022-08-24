@@ -175,17 +175,40 @@
           <h2 class="title">Наша команда</h2>
           <ul class="team">
             <li class="team__list">
-              <img
-                class="team__photo"
-                srcset="
-                  ./image/Main/team/team1.jpg     450w,
-                  ./image/Main/team/team1@2x.jpg  900w,
-                  ./image/Main/team/team1@3x.jpg 1350w
-                "
-                src="./image/Main/team/team1.jpg"
-                alt="Игорь Демьяненко"
-                sizes="(min-width: 1200px) 33vw,(min-width: 768px) 50vw, 100vw"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./image/Main/team/mobile/team1.jpg     450w,
+                    ./image/Main/team/mobile/team1@2x.jpg  900w,
+                    ./image/Main/team/mobile/team1@3x.jpg 1350w
+                  "
+                  media="(max-width:767px)"
+                  sizes="100vw"
+                />
+                <source
+                  srcset="
+                    ./image/Main/team/tablet/team1.jpg     354w,
+                    ./image/Main/team/tablet/team1@2x.jpg  708w,
+                    ./image/Main/team/tablet/team1@3x.jpg 1062w
+                  "
+                  media="(min-width:768px) and (max-width:1199px)"
+                  sizes="100vw"
+                />
+                <source
+                  srcset="
+                    ./image/Main/team/desktop/team1.jpg    270w,
+                    ./image/Main/team/desktop/team1@2x.jpg 540w,
+                    ./image/Main/team/desktop/team1@3x.jpg 810w
+                  "
+                  media="(min-width:1200px)"
+                  sizes=" 100vw"
+                />
+                <img
+                  class="team__photo"
+                  src="./image/Main/team/mobile/team1.jpg"
+                  alt="Игорь Демьяненко"
+                />
+              </picture>
               <div class="team__meta">
                 <h3 class="team__name">Игорь Демьяненко</h3>
                 <p class="team__position">Product Designer</p>
@@ -223,17 +246,40 @@
               </div>
             </li>
             <li class="team__list">
-              <img
-                class="team__photo"
-                srcset="
-                  ./image/Main/team/team2.jpg     450w,
-                  ./image/Main/team/team2@2x.jpg  900w,
-                  ./image/Main/team/team2@3x.jpg 1350w
-                "
-                src="./image/Main/team/team2.jpg"
-                alt="Ольга Репина"
-                sizes="(min-width: 1200px) 33vw,(min-width: 768px) 50vw, 100vw"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./image/Main/team/mobile/team2.jpg     450w,
+                    ./image/Main/team/mobile/team2@2x.jpg  900w,
+                    ./image/Main/team/mobile/team2@3x.jpg 1350w
+                  "
+                  media="(max-width:767px)"
+                  sizes="100vw"
+                />
+                <source
+                  srcset="
+                    ./image/Main/team/tablet/team2.jpg     354w,
+                    ./image/Main/team/tablet/team2@2x.jpg  708w,
+                    ./image/Main/team/tablet/team2@3x.jpg 1062w
+                  "
+                  media="(min-width:768px) and (max-width:1199px)"
+                  sizes="100vw"
+                />
+                <source
+                  srcset="
+                    ./image/Main/team/desktop/team2.jpg    270w,
+                    ./image/Main/team/desktop/team2@2x.jpg 540w,
+                    ./image/Main/team/desktop/team2@3x.jpg 810w
+                  "
+                  media="(min-width:1200px)"
+                  sizes=" 100vw"
+                />
+                <img
+                  class="team__photo"
+                  src="./image/Main/team/mobile/team2.jpg"
+                  alt="Ольга Репина"
+                />
+              </picture>
               <div class="team__meta">
                 <h3 class="team__name">Ольга Репина</h3>
                 <p class="team__position">Frontend Developer</p>
@@ -271,17 +317,40 @@
               </div>
             </li>
             <li class="team__list">
-              <img
-                class="team__photo"
-                srcset="
-                  ./image/Main/team/team3.jpg     450w,
-                  ./image/Main/team/team3@2x.jpg  900w,
-                  ./image/Main/team/team3@3x.jpg 1350w
-                "
-                src="./image/Main/team/team3.jpg"
-                alt="Николай Тарасов"
-                sizes="(min-width: 1200px) 33vw,(min-width: 768px) 50vw, 100vw"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./image/Main/team/mobile/team3.jpg     450w,
+                    ./image/Main/team/mobile/team3@2x.jpg  900w,
+                    ./image/Main/team/mobile/team3@3x.jpg 1350w
+                  "
+                  media="(max-width:767px)"
+                  sizes="100vw"
+                />
+                <source
+                  srcset="
+                    ./image/Main/team/tablet/team3.jpg     354w,
+                    ./image/Main/team/tablet/team3@2x.jpg  708w,
+                    ./image/Main/team/tablet/team3@3x.jpg 1062w
+                  "
+                  media="(min-width:768px) and (max-width:1199px)"
+                  sizes="100vw"
+                />
+                <source
+                  srcset="
+                    ./image/Main/team/desktop/team3.jpg    270w,
+                    ./image/Main/team/desktop/team3@2x.jpg 540w,
+                    ./image/Main/team/desktop/team3@3x.jpg 810w
+                  "
+                  media="(min-width:1200px)"
+                  sizes=" 100vw"
+                />
+                <img
+                  class="team__photo"
+                  src="./image/Main/team/mobile/team3.jpg"
+                  alt="Николай Тарасов"
+                />
+              </picture>
               <div class="team__meta">
                 <h3 class="team__name">Николай Тарасов</h3>
                 <p class="team__position">Marketing</p>
@@ -319,17 +388,40 @@
               </div>
             </li>
             <li class="team__list">
-              <img
-                class="team__photo"
-                srcset="
-                  ./image/Main/team/team4.jpg     450w,
-                  ./image/Main/team/team4@2x.jpg  900w,
-                  ./image/Main/team/team4@3x.jpg 1350w
-                "
-                src="./image/Main/team/team4.jpg"
-                alt="Михаил Ермаков"
-                sizes="(min-width: 1200px) 33vw,(min-width: 768px) 50vw, 100vw"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./image/Main/team/mobile/team4.jpg     450w,
+                    ./image/Main/team/mobile/team4@2x.jpg  900w,
+                    ./image/Main/team/mobile/team4@3x.jpg 1350w
+                  "
+                  media="(max-width:767px)"
+                  sizes="100vw"
+                />
+                <source
+                  srcset="
+                    ./image/Main/team/tablet/team4.jpg     354w,
+                    ./image/Main/team/tablet/team4@2x.jpg  708w,
+                    ./image/Main/team/tablet/team4@3x.jpg 1062w
+                  "
+                  media="(min-width:768px) and (max-width:1199px)"
+                  sizes="100vw"
+                />
+                <source
+                  srcset="
+                    ./image/Main/team/desktop/team4.jpg    270w,
+                    ./image/Main/team/desktop/team4@2x.jpg 540w,
+                    ./image/Main/team/desktop/team4@3x.jpg 810w
+                  "
+                  media="(min-width:1200px)"
+                  sizes=" 100vw"
+                />
+                <img
+                  class="team__photo"
+                  src="./image/Main/team/mobile/team4.jpg"
+                  alt="Михаил Ермаков"
+                />
+              </picture>
               <div class="team__meta">
                 <h3 class="team__name">Михаил Ермаков</h3>
                 <p class="team__position">UI Designer</p>

@@ -6,7 +6,12 @@
   @media screen and(min-width:768px) {
     justify-content: center;
   }
-
+  @media screen and(min-width:768px) and (max-width: 1199px) {
+    margin-bottom: 30px;
+  } 
+@media screen and(min-width: 1200px) {
+  margin-bottom: 50px;
+}
   &__item {
     @media screen and(max-width:383px) {
       &:nth-child(2n + 2) {
